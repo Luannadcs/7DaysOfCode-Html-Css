@@ -1,0 +1,47 @@
+.depoimentos {
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    width: 1216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px auto;
+}
+
+.depoimentos__texto {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--bordô);
+    padding: 64px 0 16px 0;
+}
+
+.depoimentos__titulo {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    width: 80%;
+    text-align: center;
+    line-height: 122%;
+}
+
+.depoimento__pessoa {
+    text-align: center;
+}
+
+.pessoa__foto {
+    padding: 32px 0 16px 0;
+}
+
+.pessoa__nome {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-escuro);
+    line-height: 24px;
+}
+
+.pessoa__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    padding: 4px 0 64px 0;
+}

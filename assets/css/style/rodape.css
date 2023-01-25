@@ -1,0 +1,55 @@
+.rodape {
+    text-align: center;
+    background-color: var(--cinza-medio);
+    height: 330px;
+    padding-top: 96px;
+}
+
+.rodape__titulo {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0 40px 0;
+    color: var(--cinza-claro);
+    line-height: 30px;
+}
+
+.formulario__email {
+    width: 360px;
+    height: 48px;
+    background-color: var(--base-white);
+    border-radius: 8px;
+    border: 1px solid var(--cinza-borda);
+    margin-right: 16px;
+}
+
+.formulario__email::placeholder {
+    color: var(--cinza-claro);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    padding-left: 16px;
+}
+
+.formulario__botao {
+    background-color: var(--bordô);
+    color: var(--base-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.rodape__direitos {
+    color: var(--cinza-rodape);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}
